@@ -32,30 +32,32 @@ class createTabels:
                             year INTEGER NOT NULL,
                             month INTEGER NOT NULL,
                             day INTEGER NOT NULL,
-                            srecipitation real;
-                            snowfall real;
-                            snow_depth real;
-                            max_temperature real;
+                            precipitation real,
+                            snowfall real,
+                            snow_depth real,
+                            max_temperature real,
                             min_temperature real
                        )
                        '''
     cursor.execute(climateDataTableDaily)
+    print("Daily climate table is created")
 
-    climateDataTableMontly = '''
-                       DROP TABLE IF EXISTS stations_data_montly;
-                       CREATE TABLE stations_data_daily(
+    climateDataTableMonthly = '''
+                       DROP TABLE IF EXISTS stations_data_monthly;
+                       CREATE TABLE stations_data_monthly(
                             noaa_id VARCHAR(20) NOT NULL,
                             year INTEGER NOT NULL,
                             month INTEGER NOT NULL,
-                            srecipitation real;
-                            snowfall real;
-                            snow_depth real;
-                            max_temperature real;
+                            precipitation real,
+                            snowfall real,
+                            snow_depth real,
+                            max_temperature real,
                             min_temperature real
                        )
                        '''
-    cursor.execute(climateDataTableMontly)
-    
+    cursor.execute(climateDataTableMonthly)
+    print("Monthly climate table is created")
+
     newConection.commit()
     cursor.close()
     newConection.close()  
