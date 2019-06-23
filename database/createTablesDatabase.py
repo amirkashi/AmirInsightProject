@@ -2,12 +2,13 @@ from databaseConnection import dataBaseConnect
 
 class createTabels:
     newConection = dataBaseConnect().connectToDataBase()
-    
+    print ( newConection.get_dsn_parameters(),"\n")
     """
     create table for station 
     sorucefile: ghcnd-stations.txt
     """
     cursor = newConection.cursor()
+    print("connected!")
     stationTable = '''
                     DROP TABLE IF EXISTS stations;
                     CREATE TABLE stations (
@@ -22,8 +23,9 @@ class createTabels:
                     '''
     
     cursor.execute(stationTable)
+    print("station table created")
     
-    
+    newConection.commit()
     cursor.close()
     newConection.close()  
     
