@@ -1,5 +1,5 @@
 import psycopg2 as pg2
-from databaseInfo import dataBaseLogin
+from constantValues.loginInfo import dataBaseLogin
 
 
 class dataBaseConnect:
