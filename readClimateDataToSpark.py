@@ -28,7 +28,7 @@ class readClimateData:
                                   StructField('data_type', StringType(), True),\
                                   StructField('data', DoubleType(), True)])
 
-        climateData = self.spark.read.csv("s3a://noaa-ghcn-pds/csv/1900.csv", header=False, schema=data_schema)
+        climateData = self.spark.read.csv("s3a://noaa-ghcn-pds/csv/*.csv", header=False, schema=data_schema)
         climateData = climateData.groupby(climateData.station_name, climateData.date).pivot("data_type").avg("data")\
                 .select(['station_name', 'date', 'TMAX', 'TMIN', 'PRCP'])\
                 .withColumn('country', climateData['station_name'][0:2])
@@ -61,10 +61,6 @@ class readClimateData:
 
 if __name__ == '__main__':
     readingClimateData = readClimateData()
-    #test = readingClimateData.getStationTable()
-    #test  = readingClimateData.getClimateDataFromS3()
     test  = readingClimateData.createTableOfLower48()
-
-    #test.show()
-    print("Done!888888888----------------------=========================================000000000000000000000000000000000000")
+    print("Done!")
 
