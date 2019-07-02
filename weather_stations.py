@@ -13,7 +13,7 @@ class createStationTable:
                     DROP TABLE IF EXISTS stations;
                     CREATE TABLE stations (
                         id serial PRIMARY KEY,
-                        noaa_id VARCHAR(20) UNIQUE NOT NULL,
+                        station_name VARCHAR(20) UNIQUE NOT NULL,
                         latitude real NOT NULL,
                         longitude real NOT NULL,
                         elevation real NOT NULL,
@@ -43,7 +43,7 @@ class createStationTable:
                 stationMetaData = [x for x in line[0:41].strip().split(' ') if x!='']
                 if stationMetaData[-1] != 'AK' and stationMetaData[-1] != 'HI' and float(stationMetaData[-2]) > 0:
                     station = '''
-                             INSERT INTO stations (noaa_id, latitude, longitude, elevation, state, name)
+                             INSERT INTO stations (station_name, latitude, longitude, elevation, state, name)
                              VALUES(%s,%s,%s,%s,%s,%s);
                              '''
                     record_to_insert = (stationMetaData[0], float(stationMetaData[1]), float(stationMetaData[2]),\
