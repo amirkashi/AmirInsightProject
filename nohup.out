@@ -14482,3 +14482,672 @@ Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 19/07/03 19:07:05 INFO TaskSetManager: Finished task 691.0 in stage 1.0 (TID 791) in 6237 ms on 10.0.0.6 (executor 1) (691/717)
 19/07/03 19:07:05 INFO TaskSetManager: Starting task 697.0 in stage 1.0 (TID 797, 10.0.0.6, executor 1, partition 697, PROCESS_LOCAL, 8303 bytes)
 19/07/03 19:07:05 INFO TaskSetManager: Finished task 689.0 in stage 1.0 (TID 789) in 6524 ms on 10.0.0.6 (executor 1) (692/717)
+19/07/03 19:07:07 INFO TaskSetManager: Starting task 698.0 in stage 1.0 (TID 798, 10.0.0.12, executor 2, partition 698, PROCESS_LOCAL, 8303 bytes)
+19/07/03 19:07:07 INFO TaskSetManager: Finished task 692.0 in stage 1.0 (TID 792) in 3882 ms on 10.0.0.12 (executor 2) (693/717)
+19/07/03 19:07:10 INFO TaskSetManager: Starting task 699.0 in stage 1.0 (TID 799, 10.0.0.12, executor 2, partition 699, PROCESS_LOCAL, 8303 bytes)
+19/07/03 19:07:10 INFO TaskSetManager: Finished task 698.0 in stage 1.0 (TID 798) in 3511 ms on 10.0.0.12 (executor 2) (694/717)
+19/07/03 19:07:11 INFO TaskSetManager: Starting task 700.0 in stage 1.0 (TID 800, 10.0.0.6, executor 1, partition 700, PROCESS_LOCAL, 8303 bytes)
+19/07/03 19:07:11 INFO TaskSetManager: Finished task 697.0 in stage 1.0 (TID 797) in 5512 ms on 10.0.0.6 (executor 1) (695/717)
+19/07/03 19:07:11 INFO TaskSetManager: Starting task 701.0 in stage 1.0 (TID 801, 10.0.0.6, executor 1, partition 701, PROCESS_LOCAL, 8303 bytes)
+19/07/03 19:07:11 INFO TaskSetManager: Finished task 696.0 in stage 1.0 (TID 796) in 5634 ms on 10.0.0.6 (executor 1) (696/717)
+19/07/03 19:07:11 INFO TaskSetManager: Starting task 702.0 in stage 1.0 (TID 802, 10.0.0.10, executor 0, partition 702, PROCESS_LOCAL, 8303 bytes)
+19/07/03 19:07:11 INFO TaskSetManager: Finished task 694.0 in stage 1.0 (TID 794) in 5885 ms on 10.0.0.10 (executor 0) (697/717)
+19/07/03 19:07:12 INFO TaskSetManager: Starting task 703.0 in stage 1.0 (TID 803, 10.0.0.10, executor 0, partition 703, PROCESS_LOCAL, 8303 bytes)
+19/07/03 19:07:12 INFO TaskSetManager: Finished task 695.0 in stage 1.0 (TID 795) in 7073 ms on 10.0.0.10 (executor 0) (698/717)
+19/07/03 19:07:14 INFO TaskSetManager: Starting task 704.0 in stage 1.0 (TID 804, 10.0.0.12, executor 2, partition 704, PROCESS_LOCAL, 8365 bytes)
+19/07/03 19:07:14 INFO TaskSetManager: Finished task 699.0 in stage 1.0 (TID 799) in 4213 ms on 10.0.0.12 (executor 2) (699/717)
+19/07/03 19:07:16 INFO TaskSetManager: Starting task 705.0 in stage 1.0 (TID 805, 10.0.0.10, executor 0, partition 705, PROCESS_LOCAL, 8365 bytes)
+19/07/03 19:07:16 INFO TaskSetManager: Finished task 702.0 in stage 1.0 (TID 802) in 4614 ms on 10.0.0.10 (executor 0) (700/717)
+19/07/03 19:07:16 INFO TaskSetManager: Starting task 706.0 in stage 1.0 (TID 806, 10.0.0.6, executor 1, partition 706, PROCESS_LOCAL, 8365 bytes)
+19/07/03 19:07:16 INFO TaskSetManager: Finished task 700.0 in stage 1.0 (TID 800) in 5333 ms on 10.0.0.6 (executor 1) (701/717)
+19/07/03 19:07:16 INFO TaskSetManager: Starting task 707.0 in stage 1.0 (TID 807, 10.0.0.6, executor 1, partition 707, PROCESS_LOCAL, 8365 bytes)
+19/07/03 19:07:16 INFO TaskSetManager: Finished task 701.0 in stage 1.0 (TID 801) in 5288 ms on 10.0.0.6 (executor 1) (702/717)
+19/07/03 19:07:18 INFO TaskSetManager: Starting task 708.0 in stage 1.0 (TID 808, 10.0.0.10, executor 0, partition 708, PROCESS_LOCAL, 8365 bytes)
+19/07/03 19:07:18 INFO TaskSetManager: Finished task 703.0 in stage 1.0 (TID 803) in 5567 ms on 10.0.0.10 (executor 0) (703/717)
+19/07/03 19:07:21 INFO TaskSetManager: Starting task 709.0 in stage 1.0 (TID 809, 10.0.0.12, executor 2, partition 709, PROCESS_LOCAL, 8365 bytes)
+19/07/03 19:07:21 INFO TaskSetManager: Finished task 704.0 in stage 1.0 (TID 804) in 7009 ms on 10.0.0.12 (executor 2) (704/717)
+19/07/03 19:07:24 INFO TaskSetManager: Starting task 710.0 in stage 1.0 (TID 810, 10.0.0.10, executor 0, partition 710, PROCESS_LOCAL, 8365 bytes)
+19/07/03 19:07:24 INFO TaskSetManager: Finished task 705.0 in stage 1.0 (TID 805) in 8546 ms on 10.0.0.10 (executor 0) (705/717)
+19/07/03 19:07:25 INFO TaskSetManager: Starting task 711.0 in stage 1.0 (TID 811, 10.0.0.6, executor 1, partition 711, PROCESS_LOCAL, 8427 bytes)
+19/07/03 19:07:25 INFO TaskSetManager: Finished task 707.0 in stage 1.0 (TID 807) in 8603 ms on 10.0.0.6 (executor 1) (706/717)
+19/07/03 19:07:25 INFO TaskSetManager: Starting task 712.0 in stage 1.0 (TID 812, 10.0.0.6, executor 1, partition 712, PROCESS_LOCAL, 8427 bytes)
+19/07/03 19:07:25 INFO TaskSetManager: Finished task 706.0 in stage 1.0 (TID 806) in 9069 ms on 10.0.0.6 (executor 1) (707/717)
+19/07/03 19:07:26 INFO TaskSetManager: Starting task 713.0 in stage 1.0 (TID 813, 10.0.0.10, executor 0, partition 713, PROCESS_LOCAL, 8489 bytes)
+19/07/03 19:07:26 INFO TaskSetManager: Finished task 708.0 in stage 1.0 (TID 808) in 7949 ms on 10.0.0.10 (executor 0) (708/717)
+19/07/03 19:07:27 INFO TaskSetManager: Starting task 714.0 in stage 1.0 (TID 814, 10.0.0.12, executor 2, partition 714, PROCESS_LOCAL, 8489 bytes)
+19/07/03 19:07:27 INFO TaskSetManager: Finished task 709.0 in stage 1.0 (TID 809) in 5368 ms on 10.0.0.12 (executor 2) (709/717)
+19/07/03 19:07:32 INFO TaskSetManager: Starting task 715.0 in stage 1.0 (TID 815, 10.0.0.12, executor 2, partition 715, PROCESS_LOCAL, 8675 bytes)
+19/07/03 19:07:32 INFO TaskSetManager: Finished task 714.0 in stage 1.0 (TID 814) in 5527 ms on 10.0.0.12 (executor 2) (710/717)
+19/07/03 19:07:33 INFO TaskSetManager: Starting task 716.0 in stage 1.0 (TID 816, 10.0.0.6, executor 1, partition 716, PROCESS_LOCAL, 8737 bytes)
+19/07/03 19:07:33 INFO TaskSetManager: Finished task 712.0 in stage 1.0 (TID 812) in 7767 ms on 10.0.0.6 (executor 1) (711/717)
+19/07/03 19:07:33 INFO TaskSetManager: Finished task 711.0 in stage 1.0 (TID 811) in 8699 ms on 10.0.0.6 (executor 1) (712/717)
+19/07/03 19:07:34 INFO TaskSetManager: Finished task 713.0 in stage 1.0 (TID 813) in 8017 ms on 10.0.0.10 (executor 0) (713/717)
+19/07/03 19:07:35 INFO TaskSetManager: Finished task 710.0 in stage 1.0 (TID 810) in 10624 ms on 10.0.0.10 (executor 0) (714/717)
+19/07/03 19:07:37 INFO TaskSetManager: Finished task 716.0 in stage 1.0 (TID 816) in 4374 ms on 10.0.0.6 (executor 1) (715/717)
+19/07/03 19:07:39 INFO TaskSetManager: Finished task 715.0 in stage 1.0 (TID 815) in 6286 ms on 10.0.0.12 (executor 2) (716/717)
+19/07/03 19:07:53 INFO TaskSetManager: Finished task 693.0 in stage 1.0 (TID 793) in 49555 ms on 10.0.0.12 (executor 2) (717/717)
+19/07/03 19:07:53 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+19/07/03 19:07:53 INFO DAGScheduler: ShuffleMapStage 1 (pivot at NativeMethodAccessorImpl.java:0) finished in 1333.398 s
+19/07/03 19:07:53 INFO DAGScheduler: looking for newly runnable stages
+19/07/03 19:07:53 INFO DAGScheduler: running: Set()
+19/07/03 19:07:53 INFO DAGScheduler: waiting: Set(ShuffleMapStage 2, ResultStage 3)
+19/07/03 19:07:53 INFO DAGScheduler: failed: Set()
+19/07/03 19:07:53 INFO DAGScheduler: Submitting ShuffleMapStage 2 (MapPartitionsRDD[8] at pivot at NativeMethodAccessorImpl.java:0), which has no missing parents
+19/07/03 19:07:53 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 25.7 KB, free 365.9 MB)
+19/07/03 19:07:53 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 11.6 KB, free 365.9 MB)
+19/07/03 19:07:53 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on ip-10-0-0-7.us-west-2.compute.internal:43455 (size: 11.6 KB, free: 366.3 MB)
+19/07/03 19:07:53 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1161
+19/07/03 19:07:53 INFO DAGScheduler: Submitting 200 missing tasks from ShuffleMapStage 2 (MapPartitionsRDD[8] at pivot at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+19/07/03 19:07:53 INFO TaskSchedulerImpl: Adding task set 2.0 with 200 tasks
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 817, 10.0.0.12, executor 2, partition 0, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 1.0 in stage 2.0 (TID 818, 10.0.0.10, executor 0, partition 1, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 4.0 in stage 2.0 (TID 819, 10.0.0.6, executor 1, partition 4, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 5.0 in stage 2.0 (TID 820, 10.0.0.12, executor 2, partition 5, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 11.0 in stage 2.0 (TID 821, 10.0.0.10, executor 0, partition 11, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 15.0 in stage 2.0 (TID 822, 10.0.0.6, executor 1, partition 15, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.0.0.6:32845 (size: 11.6 KB, free: 366.3 MB)
+19/07/03 19:07:53 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.0.0.10:35229 (size: 11.6 KB, free: 366.3 MB)
+19/07/03 19:07:53 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.0.0.12:44279 (size: 11.6 KB, free: 366.3 MB)
+19/07/03 19:07:53 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 10.0.0.6:41744
+19/07/03 19:07:53 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 10.0.0.10:54376
+19/07/03 19:07:53 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 10.0.0.12:39106
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 18.0 in stage 2.0 (TID 823, 10.0.0.12, executor 2, partition 18, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Finished task 5.0 in stage 2.0 (TID 820) in 509 ms on 10.0.0.12 (executor 2) (1/200)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 19.0 in stage 2.0 (TID 824, 10.0.0.12, executor 2, partition 19, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Finished task 18.0 in stage 2.0 (TID 823) in 140 ms on 10.0.0.12 (executor 2) (2/200)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 16.0 in stage 2.0 (TID 825, 10.0.0.10, executor 0, partition 16, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Finished task 1.0 in stage 2.0 (TID 818) in 666 ms on 10.0.0.10 (executor 0) (3/200)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 21.0 in stage 2.0 (TID 826, 10.0.0.10, executor 0, partition 21, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Finished task 11.0 in stage 2.0 (TID 821) in 667 ms on 10.0.0.10 (executor 0) (4/200)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 28.0 in stage 2.0 (TID 827, 10.0.0.6, executor 1, partition 28, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Finished task 4.0 in stage 2.0 (TID 819) in 707 ms on 10.0.0.6 (executor 1) (5/200)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 30.0 in stage 2.0 (TID 828, 10.0.0.12, executor 2, partition 30, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 817) in 726 ms on 10.0.0.12 (executor 2) (6/200)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 31.0 in stage 2.0 (TID 829, 10.0.0.10, executor 0, partition 31, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Finished task 16.0 in stage 2.0 (TID 825) in 80 ms on 10.0.0.10 (executor 0) (7/200)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 33.0 in stage 2.0 (TID 830, 10.0.0.6, executor 1, partition 33, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Finished task 15.0 in stage 2.0 (TID 822) in 799 ms on 10.0.0.6 (executor 1) (8/200)
+19/07/03 19:07:53 INFO TaskSetManager: Starting task 34.0 in stage 2.0 (TID 831, 10.0.0.10, executor 0, partition 34, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:53 INFO TaskSetManager: Finished task 21.0 in stage 2.0 (TID 826) in 147 ms on 10.0.0.10 (executor 0) (9/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 37.0 in stage 2.0 (TID 832, 10.0.0.10, executor 0, partition 37, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 31.0 in stage 2.0 (TID 829) in 181 ms on 10.0.0.10 (executor 0) (10/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 40.0 in stage 2.0 (TID 833, 10.0.0.6, executor 1, partition 40, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 28.0 in stage 2.0 (TID 827) in 274 ms on 10.0.0.6 (executor 1) (11/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 41.0 in stage 2.0 (TID 834, 10.0.0.12, executor 2, partition 41, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 19.0 in stage 2.0 (TID 824) in 374 ms on 10.0.0.12 (executor 2) (12/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 43.0 in stage 2.0 (TID 835, 10.0.0.10, executor 0, partition 43, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 34.0 in stage 2.0 (TID 831) in 234 ms on 10.0.0.10 (executor 0) (13/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 46.0 in stage 2.0 (TID 836, 10.0.0.12, executor 2, partition 46, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 30.0 in stage 2.0 (TID 828) in 357 ms on 10.0.0.12 (executor 2) (14/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 47.0 in stage 2.0 (TID 837, 10.0.0.10, executor 0, partition 47, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 37.0 in stage 2.0 (TID 832) in 193 ms on 10.0.0.10 (executor 0) (15/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 48.0 in stage 2.0 (TID 838, 10.0.0.6, executor 1, partition 48, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 33.0 in stage 2.0 (TID 830) in 352 ms on 10.0.0.6 (executor 1) (16/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 49.0 in stage 2.0 (TID 839, 10.0.0.10, executor 0, partition 49, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 43.0 in stage 2.0 (TID 835) in 131 ms on 10.0.0.10 (executor 0) (17/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 50.0 in stage 2.0 (TID 840, 10.0.0.6, executor 1, partition 50, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 48.0 in stage 2.0 (TID 838) in 91 ms on 10.0.0.6 (executor 1) (18/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 51.0 in stage 2.0 (TID 841, 10.0.0.6, executor 1, partition 51, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 40.0 in stage 2.0 (TID 833) in 330 ms on 10.0.0.6 (executor 1) (19/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 55.0 in stage 2.0 (TID 842, 10.0.0.10, executor 0, partition 55, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 47.0 in stage 2.0 (TID 837) in 207 ms on 10.0.0.10 (executor 0) (20/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 57.0 in stage 2.0 (TID 843, 10.0.0.10, executor 0, partition 57, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 49.0 in stage 2.0 (TID 839) in 224 ms on 10.0.0.10 (executor 0) (21/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 58.0 in stage 2.0 (TID 844, 10.0.0.12, executor 2, partition 58, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 46.0 in stage 2.0 (TID 836) in 348 ms on 10.0.0.12 (executor 2) (22/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 59.0 in stage 2.0 (TID 845, 10.0.0.10, executor 0, partition 59, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 55.0 in stage 2.0 (TID 842) in 120 ms on 10.0.0.10 (executor 0) (23/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 67.0 in stage 2.0 (TID 846, 10.0.0.12, executor 2, partition 67, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 41.0 in stage 2.0 (TID 834) in 468 ms on 10.0.0.12 (executor 2) (24/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 69.0 in stage 2.0 (TID 847, 10.0.0.6, executor 1, partition 69, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 50.0 in stage 2.0 (TID 840) in 269 ms on 10.0.0.6 (executor 1) (25/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 71.0 in stage 2.0 (TID 848, 10.0.0.6, executor 1, partition 71, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 51.0 in stage 2.0 (TID 841) in 201 ms on 10.0.0.6 (executor 1) (26/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 76.0 in stage 2.0 (TID 849, 10.0.0.6, executor 1, partition 76, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 69.0 in stage 2.0 (TID 847) in 91 ms on 10.0.0.6 (executor 1) (27/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 77.0 in stage 2.0 (TID 850, 10.0.0.10, executor 0, partition 77, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 57.0 in stage 2.0 (TID 843) in 231 ms on 10.0.0.10 (executor 0) (28/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 79.0 in stage 2.0 (TID 851, 10.0.0.6, executor 1, partition 79, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 71.0 in stage 2.0 (TID 848) in 155 ms on 10.0.0.6 (executor 1) (29/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 81.0 in stage 2.0 (TID 852, 10.0.0.6, executor 1, partition 81, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 76.0 in stage 2.0 (TID 849) in 77 ms on 10.0.0.6 (executor 1) (30/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 83.0 in stage 2.0 (TID 853, 10.0.0.12, executor 2, partition 83, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 58.0 in stage 2.0 (TID 844) in 257 ms on 10.0.0.12 (executor 2) (31/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 84.0 in stage 2.0 (TID 854, 10.0.0.12, executor 2, partition 84, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 67.0 in stage 2.0 (TID 846) in 201 ms on 10.0.0.12 (executor 2) (32/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 85.0 in stage 2.0 (TID 855, 10.0.0.10, executor 0, partition 85, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 59.0 in stage 2.0 (TID 845) in 262 ms on 10.0.0.10 (executor 0) (33/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 87.0 in stage 2.0 (TID 856, 10.0.0.6, executor 1, partition 87, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 79.0 in stage 2.0 (TID 851) in 181 ms on 10.0.0.6 (executor 1) (34/200)
+19/07/03 19:07:54 INFO TaskSetManager: Starting task 88.0 in stage 2.0 (TID 857, 10.0.0.10, executor 0, partition 88, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:54 INFO TaskSetManager: Finished task 77.0 in stage 2.0 (TID 850) in 240 ms on 10.0.0.10 (executor 0) (35/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 91.0 in stage 2.0 (TID 858, 10.0.0.6, executor 1, partition 91, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 87.0 in stage 2.0 (TID 856) in 38 ms on 10.0.0.6 (executor 1) (36/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 92.0 in stage 2.0 (TID 859, 10.0.0.12, executor 2, partition 92, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 84.0 in stage 2.0 (TID 854) in 217 ms on 10.0.0.12 (executor 2) (37/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 93.0 in stage 2.0 (TID 860, 10.0.0.6, executor 1, partition 93, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 81.0 in stage 2.0 (TID 852) in 241 ms on 10.0.0.6 (executor 1) (38/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 94.0 in stage 2.0 (TID 861, 10.0.0.6, executor 1, partition 94, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 91.0 in stage 2.0 (TID 858) in 37 ms on 10.0.0.6 (executor 1) (39/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 97.0 in stage 2.0 (TID 862, 10.0.0.12, executor 2, partition 97, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 83.0 in stage 2.0 (TID 853) in 268 ms on 10.0.0.12 (executor 2) (40/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 99.0 in stage 2.0 (TID 863, 10.0.0.6, executor 1, partition 99, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 94.0 in stage 2.0 (TID 861) in 53 ms on 10.0.0.6 (executor 1) (41/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 102.0 in stage 2.0 (TID 864, 10.0.0.10, executor 0, partition 102, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 85.0 in stage 2.0 (TID 855) in 272 ms on 10.0.0.10 (executor 0) (42/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 103.0 in stage 2.0 (TID 865, 10.0.0.10, executor 0, partition 103, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 88.0 in stage 2.0 (TID 857) in 178 ms on 10.0.0.10 (executor 0) (43/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 106.0 in stage 2.0 (TID 866, 10.0.0.6, executor 1, partition 106, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 93.0 in stage 2.0 (TID 860) in 149 ms on 10.0.0.6 (executor 1) (44/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 111.0 in stage 2.0 (TID 867, 10.0.0.10, executor 0, partition 111, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 103.0 in stage 2.0 (TID 865) in 81 ms on 10.0.0.10 (executor 0) (45/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 117.0 in stage 2.0 (TID 868, 10.0.0.6, executor 1, partition 117, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 106.0 in stage 2.0 (TID 866) in 73 ms on 10.0.0.6 (executor 1) (46/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 121.0 in stage 2.0 (TID 869, 10.0.0.12, executor 2, partition 121, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 92.0 in stage 2.0 (TID 859) in 305 ms on 10.0.0.12 (executor 2) (47/200)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 99.0 in stage 2.0 (TID 863) in 238 ms on 10.0.0.6 (executor 1) (48/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 122.0 in stage 2.0 (TID 870, 10.0.0.6, executor 1, partition 122, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 124.0 in stage 2.0 (TID 871, 10.0.0.12, executor 2, partition 124, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 97.0 in stage 2.0 (TID 862) in 260 ms on 10.0.0.12 (executor 2) (49/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 125.0 in stage 2.0 (TID 872, 10.0.0.10, executor 0, partition 125, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 111.0 in stage 2.0 (TID 867) in 88 ms on 10.0.0.10 (executor 0) (50/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 126.0 in stage 2.0 (TID 873, 10.0.0.10, executor 0, partition 126, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 102.0 in stage 2.0 (TID 864) in 262 ms on 10.0.0.10 (executor 0) (51/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 127.0 in stage 2.0 (TID 874, 10.0.0.6, executor 1, partition 127, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 117.0 in stage 2.0 (TID 868) in 108 ms on 10.0.0.6 (executor 1) (52/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 129.0 in stage 2.0 (TID 875, 10.0.0.6, executor 1, partition 129, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 122.0 in stage 2.0 (TID 870) in 112 ms on 10.0.0.6 (executor 1) (53/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 130.0 in stage 2.0 (TID 876, 10.0.0.6, executor 1, partition 130, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 127.0 in stage 2.0 (TID 874) in 187 ms on 10.0.0.6 (executor 1) (54/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 131.0 in stage 2.0 (TID 877, 10.0.0.10, executor 0, partition 131, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 125.0 in stage 2.0 (TID 872) in 232 ms on 10.0.0.10 (executor 0) (55/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 132.0 in stage 2.0 (TID 878, 10.0.0.12, executor 2, partition 132, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 121.0 in stage 2.0 (TID 869) in 290 ms on 10.0.0.12 (executor 2) (56/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 134.0 in stage 2.0 (TID 879, 10.0.0.10, executor 0, partition 134, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 126.0 in stage 2.0 (TID 873) in 260 ms on 10.0.0.10 (executor 0) (57/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 136.0 in stage 2.0 (TID 880, 10.0.0.12, executor 2, partition 136, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 124.0 in stage 2.0 (TID 871) in 303 ms on 10.0.0.12 (executor 2) (58/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 138.0 in stage 2.0 (TID 881, 10.0.0.6, executor 1, partition 138, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 129.0 in stage 2.0 (TID 875) in 211 ms on 10.0.0.6 (executor 1) (59/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 139.0 in stage 2.0 (TID 882, 10.0.0.10, executor 0, partition 139, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 131.0 in stage 2.0 (TID 877) in 148 ms on 10.0.0.10 (executor 0) (60/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 141.0 in stage 2.0 (TID 883, 10.0.0.12, executor 2, partition 141, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 132.0 in stage 2.0 (TID 878) in 109 ms on 10.0.0.12 (executor 2) (61/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 144.0 in stage 2.0 (TID 884, 10.0.0.6, executor 1, partition 144, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 138.0 in stage 2.0 (TID 881) in 100 ms on 10.0.0.6 (executor 1) (62/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 145.0 in stage 2.0 (TID 885, 10.0.0.6, executor 1, partition 145, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 130.0 in stage 2.0 (TID 876) in 227 ms on 10.0.0.6 (executor 1) (63/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 147.0 in stage 2.0 (TID 886, 10.0.0.12, executor 2, partition 147, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 141.0 in stage 2.0 (TID 883) in 81 ms on 10.0.0.12 (executor 2) (64/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 148.0 in stage 2.0 (TID 887, 10.0.0.10, executor 0, partition 148, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 134.0 in stage 2.0 (TID 879) in 201 ms on 10.0.0.10 (executor 0) (65/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 149.0 in stage 2.0 (TID 888, 10.0.0.12, executor 2, partition 149, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 136.0 in stage 2.0 (TID 880) in 193 ms on 10.0.0.12 (executor 2) (66/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 150.0 in stage 2.0 (TID 889, 10.0.0.6, executor 1, partition 150, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 144.0 in stage 2.0 (TID 884) in 144 ms on 10.0.0.6 (executor 1) (67/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 151.0 in stage 2.0 (TID 890, 10.0.0.10, executor 0, partition 151, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 139.0 in stage 2.0 (TID 882) in 193 ms on 10.0.0.10 (executor 0) (68/200)
+19/07/03 19:07:55 INFO TaskSetManager: Starting task 155.0 in stage 2.0 (TID 891, 10.0.0.6, executor 1, partition 155, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:55 INFO TaskSetManager: Finished task 145.0 in stage 2.0 (TID 885) in 148 ms on 10.0.0.6 (executor 1) (69/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 156.0 in stage 2.0 (TID 892, 10.0.0.6, executor 1, partition 156, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 150.0 in stage 2.0 (TID 889) in 98 ms on 10.0.0.6 (executor 1) (70/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 158.0 in stage 2.0 (TID 893, 10.0.0.6, executor 1, partition 158, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 155.0 in stage 2.0 (TID 891) in 86 ms on 10.0.0.6 (executor 1) (71/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 159.0 in stage 2.0 (TID 894, 10.0.0.10, executor 0, partition 159, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 148.0 in stage 2.0 (TID 887) in 193 ms on 10.0.0.10 (executor 0) (72/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 160.0 in stage 2.0 (TID 895, 10.0.0.12, executor 2, partition 160, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 149.0 in stage 2.0 (TID 888) in 199 ms on 10.0.0.12 (executor 2) (73/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 161.0 in stage 2.0 (TID 896, 10.0.0.12, executor 2, partition 161, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 147.0 in stage 2.0 (TID 886) in 250 ms on 10.0.0.12 (executor 2) (74/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 164.0 in stage 2.0 (TID 897, 10.0.0.12, executor 2, partition 164, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 160.0 in stage 2.0 (TID 895) in 49 ms on 10.0.0.12 (executor 2) (75/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 166.0 in stage 2.0 (TID 898, 10.0.0.10, executor 0, partition 166, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 159.0 in stage 2.0 (TID 894) in 69 ms on 10.0.0.10 (executor 0) (76/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 168.0 in stage 2.0 (TID 899, 10.0.0.6, executor 1, partition 168, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 156.0 in stage 2.0 (TID 892) in 107 ms on 10.0.0.6 (executor 1) (77/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 169.0 in stage 2.0 (TID 900, 10.0.0.6, executor 1, partition 169, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 158.0 in stage 2.0 (TID 893) in 104 ms on 10.0.0.6 (executor 1) (78/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 172.0 in stage 2.0 (TID 901, 10.0.0.12, executor 2, partition 172, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 161.0 in stage 2.0 (TID 896) in 71 ms on 10.0.0.12 (executor 2) (79/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 174.0 in stage 2.0 (TID 902, 10.0.0.10, executor 0, partition 174, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 166.0 in stage 2.0 (TID 898) in 50 ms on 10.0.0.10 (executor 0) (80/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 175.0 in stage 2.0 (TID 903, 10.0.0.6, executor 1, partition 175, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 168.0 in stage 2.0 (TID 899) in 37 ms on 10.0.0.6 (executor 1) (81/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 176.0 in stage 2.0 (TID 904, 10.0.0.6, executor 1, partition 176, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 169.0 in stage 2.0 (TID 900) in 52 ms on 10.0.0.6 (executor 1) (82/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 177.0 in stage 2.0 (TID 905, 10.0.0.10, executor 0, partition 177, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 151.0 in stage 2.0 (TID 890) in 268 ms on 10.0.0.10 (executor 0) (83/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 178.0 in stage 2.0 (TID 906, 10.0.0.10, executor 0, partition 178, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 174.0 in stage 2.0 (TID 902) in 53 ms on 10.0.0.10 (executor 0) (84/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 180.0 in stage 2.0 (TID 907, 10.0.0.12, executor 2, partition 180, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 164.0 in stage 2.0 (TID 897) in 129 ms on 10.0.0.12 (executor 2) (85/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 183.0 in stage 2.0 (TID 908, 10.0.0.10, executor 0, partition 183, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 178.0 in stage 2.0 (TID 906) in 60 ms on 10.0.0.10 (executor 0) (86/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 185.0 in stage 2.0 (TID 909, 10.0.0.12, executor 2, partition 185, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 172.0 in stage 2.0 (TID 901) in 129 ms on 10.0.0.12 (executor 2) (87/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 186.0 in stage 2.0 (TID 910, 10.0.0.6, executor 1, partition 186, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 175.0 in stage 2.0 (TID 903) in 166 ms on 10.0.0.6 (executor 1) (88/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 190.0 in stage 2.0 (TID 911, 10.0.0.10, executor 0, partition 190, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 177.0 in stage 2.0 (TID 905) in 131 ms on 10.0.0.10 (executor 0) (89/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 191.0 in stage 2.0 (TID 912, 10.0.0.12, executor 2, partition 191, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 180.0 in stage 2.0 (TID 907) in 152 ms on 10.0.0.12 (executor 2) (90/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 192.0 in stage 2.0 (TID 913, 10.0.0.10, executor 0, partition 192, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 183.0 in stage 2.0 (TID 908) in 121 ms on 10.0.0.10 (executor 0) (91/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 193.0 in stage 2.0 (TID 914, 10.0.0.6, executor 1, partition 193, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 176.0 in stage 2.0 (TID 904) in 242 ms on 10.0.0.6 (executor 1) (92/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 195.0 in stage 2.0 (TID 915, 10.0.0.10, executor 0, partition 195, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 190.0 in stage 2.0 (TID 911) in 157 ms on 10.0.0.10 (executor 0) (93/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 185.0 in stage 2.0 (TID 909) in 247 ms on 10.0.0.12 (executor 2) (94/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 199.0 in stage 2.0 (TID 916, 10.0.0.12, executor 2, partition 199, NODE_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 2.0 in stage 2.0 (TID 917, 10.0.0.10, executor 0, partition 2, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 192.0 in stage 2.0 (TID 913) in 166 ms on 10.0.0.10 (executor 0) (95/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 3.0 in stage 2.0 (TID 918, 10.0.0.6, executor 1, partition 3, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 186.0 in stage 2.0 (TID 910) in 227 ms on 10.0.0.6 (executor 1) (96/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 6.0 in stage 2.0 (TID 919, 10.0.0.10, executor 0, partition 6, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 2.0 in stage 2.0 (TID 917) in 15 ms on 10.0.0.10 (executor 0) (97/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 7.0 in stage 2.0 (TID 920, 10.0.0.6, executor 1, partition 7, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 3.0 in stage 2.0 (TID 918) in 16 ms on 10.0.0.6 (executor 1) (98/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 8.0 in stage 2.0 (TID 921, 10.0.0.6, executor 1, partition 8, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 7.0 in stage 2.0 (TID 920) in 6 ms on 10.0.0.6 (executor 1) (99/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 9.0 in stage 2.0 (TID 922, 10.0.0.6, executor 1, partition 9, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 8.0 in stage 2.0 (TID 921) in 8 ms on 10.0.0.6 (executor 1) (100/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 10.0 in stage 2.0 (TID 923, 10.0.0.10, executor 0, partition 10, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 6.0 in stage 2.0 (TID 919) in 20 ms on 10.0.0.10 (executor 0) (101/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 12.0 in stage 2.0 (TID 924, 10.0.0.10, executor 0, partition 12, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 195.0 in stage 2.0 (TID 915) in 107 ms on 10.0.0.10 (executor 0) (102/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 13.0 in stage 2.0 (TID 925, 10.0.0.6, executor 1, partition 13, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 9.0 in stage 2.0 (TID 922) in 10 ms on 10.0.0.6 (executor 1) (103/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 14.0 in stage 2.0 (TID 926, 10.0.0.6, executor 1, partition 14, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 17.0 in stage 2.0 (TID 927, 10.0.0.10, executor 0, partition 17, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 20.0 in stage 2.0 (TID 928, 10.0.0.10, executor 0, partition 20, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 10.0 in stage 2.0 (TID 923) in 16 ms on 10.0.0.10 (executor 0) (104/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 13.0 in stage 2.0 (TID 925) in 8 ms on 10.0.0.6 (executor 1) (105/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 12.0 in stage 2.0 (TID 924) in 11 ms on 10.0.0.10 (executor 0) (106/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 22.0 in stage 2.0 (TID 929, 10.0.0.6, executor 1, partition 22, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 193.0 in stage 2.0 (TID 914) in 175 ms on 10.0.0.6 (executor 1) (107/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 199.0 in stage 2.0 (TID 916) in 80 ms on 10.0.0.12 (executor 2) (108/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 23.0 in stage 2.0 (TID 930, 10.0.0.12, executor 2, partition 23, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 24.0 in stage 2.0 (TID 931, 10.0.0.10, executor 0, partition 24, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 17.0 in stage 2.0 (TID 927) in 8 ms on 10.0.0.10 (executor 0) (109/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 25.0 in stage 2.0 (TID 932, 10.0.0.10, executor 0, partition 25, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 20.0 in stage 2.0 (TID 928) in 9 ms on 10.0.0.10 (executor 0) (110/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 26.0 in stage 2.0 (TID 933, 10.0.0.6, executor 1, partition 26, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 14.0 in stage 2.0 (TID 926) in 12 ms on 10.0.0.6 (executor 1) (111/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 27.0 in stage 2.0 (TID 934, 10.0.0.10, executor 0, partition 27, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 25.0 in stage 2.0 (TID 932) in 9 ms on 10.0.0.10 (executor 0) (112/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 29.0 in stage 2.0 (TID 935, 10.0.0.10, executor 0, partition 29, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 24.0 in stage 2.0 (TID 931) in 12 ms on 10.0.0.10 (executor 0) (113/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 32.0 in stage 2.0 (TID 936, 10.0.0.6, executor 1, partition 32, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 22.0 in stage 2.0 (TID 929) in 17 ms on 10.0.0.6 (executor 1) (114/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 35.0 in stage 2.0 (TID 937, 10.0.0.12, executor 2, partition 35, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 23.0 in stage 2.0 (TID 930) in 16 ms on 10.0.0.12 (executor 2) (115/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 36.0 in stage 2.0 (TID 938, 10.0.0.6, executor 1, partition 36, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 26.0 in stage 2.0 (TID 933) in 14 ms on 10.0.0.6 (executor 1) (116/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 38.0 in stage 2.0 (TID 939, 10.0.0.12, executor 2, partition 38, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 35.0 in stage 2.0 (TID 937) in 6 ms on 10.0.0.12 (executor 2) (117/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 39.0 in stage 2.0 (TID 940, 10.0.0.10, executor 0, partition 39, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 27.0 in stage 2.0 (TID 934) in 14 ms on 10.0.0.10 (executor 0) (118/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 42.0 in stage 2.0 (TID 941, 10.0.0.6, executor 1, partition 42, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 36.0 in stage 2.0 (TID 938) in 10 ms on 10.0.0.6 (executor 1) (119/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 44.0 in stage 2.0 (TID 942, 10.0.0.10, executor 0, partition 44, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 29.0 in stage 2.0 (TID 935) in 16 ms on 10.0.0.10 (executor 0) (120/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 32.0 in stage 2.0 (TID 936) in 15 ms on 10.0.0.6 (executor 1) (121/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 45.0 in stage 2.0 (TID 943, 10.0.0.6, executor 1, partition 45, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 52.0 in stage 2.0 (TID 944, 10.0.0.12, executor 2, partition 52, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 38.0 in stage 2.0 (TID 939) in 8 ms on 10.0.0.12 (executor 2) (122/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 39.0 in stage 2.0 (TID 940) in 6 ms on 10.0.0.10 (executor 0) (123/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 53.0 in stage 2.0 (TID 945, 10.0.0.10, executor 0, partition 53, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 54.0 in stage 2.0 (TID 946, 10.0.0.12, executor 2, partition 54, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 191.0 in stage 2.0 (TID 912) in 264 ms on 10.0.0.12 (executor 2) (124/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 56.0 in stage 2.0 (TID 947, 10.0.0.10, executor 0, partition 56, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 53.0 in stage 2.0 (TID 945) in 8 ms on 10.0.0.10 (executor 0) (125/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 60.0 in stage 2.0 (TID 948, 10.0.0.10, executor 0, partition 60, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 61.0 in stage 2.0 (TID 949, 10.0.0.6, executor 1, partition 61, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 62.0 in stage 2.0 (TID 950, 10.0.0.6, executor 1, partition 62, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 44.0 in stage 2.0 (TID 942) in 13 ms on 10.0.0.10 (executor 0) (126/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 45.0 in stage 2.0 (TID 943) in 12 ms on 10.0.0.6 (executor 1) (127/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 42.0 in stage 2.0 (TID 941) in 14 ms on 10.0.0.6 (executor 1) (128/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 63.0 in stage 2.0 (TID 951, 10.0.0.12, executor 2, partition 63, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 54.0 in stage 2.0 (TID 946) in 18 ms on 10.0.0.12 (executor 2) (129/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 62.0 in stage 2.0 (TID 950) in 11 ms on 10.0.0.6 (executor 1) (130/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 64.0 in stage 2.0 (TID 952, 10.0.0.6, executor 1, partition 64, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 61.0 in stage 2.0 (TID 949) in 12 ms on 10.0.0.6 (executor 1) (131/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 65.0 in stage 2.0 (TID 953, 10.0.0.6, executor 1, partition 65, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 66.0 in stage 2.0 (TID 954, 10.0.0.10, executor 0, partition 66, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 60.0 in stage 2.0 (TID 948) in 13 ms on 10.0.0.10 (executor 0) (132/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 68.0 in stage 2.0 (TID 955, 10.0.0.10, executor 0, partition 68, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 56.0 in stage 2.0 (TID 947) in 15 ms on 10.0.0.10 (executor 0) (133/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 70.0 in stage 2.0 (TID 956, 10.0.0.12, executor 2, partition 70, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 52.0 in stage 2.0 (TID 944) in 29 ms on 10.0.0.12 (executor 2) (134/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 72.0 in stage 2.0 (TID 957, 10.0.0.12, executor 2, partition 72, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 63.0 in stage 2.0 (TID 951) in 10 ms on 10.0.0.12 (executor 2) (135/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 64.0 in stage 2.0 (TID 952) in 12 ms on 10.0.0.6 (executor 1) (136/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 73.0 in stage 2.0 (TID 958, 10.0.0.6, executor 1, partition 73, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 74.0 in stage 2.0 (TID 959, 10.0.0.6, executor 1, partition 74, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 65.0 in stage 2.0 (TID 953) in 11 ms on 10.0.0.6 (executor 1) (137/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 75.0 in stage 2.0 (TID 960, 10.0.0.10, executor 0, partition 75, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 68.0 in stage 2.0 (TID 955) in 10 ms on 10.0.0.10 (executor 0) (138/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 78.0 in stage 2.0 (TID 961, 10.0.0.10, executor 0, partition 78, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 66.0 in stage 2.0 (TID 954) in 13 ms on 10.0.0.10 (executor 0) (139/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 80.0 in stage 2.0 (TID 962, 10.0.0.12, executor 2, partition 80, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 72.0 in stage 2.0 (TID 957) in 9 ms on 10.0.0.12 (executor 2) (140/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 82.0 in stage 2.0 (TID 963, 10.0.0.12, executor 2, partition 82, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 70.0 in stage 2.0 (TID 956) in 12 ms on 10.0.0.12 (executor 2) (141/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 86.0 in stage 2.0 (TID 964, 10.0.0.10, executor 0, partition 86, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 78.0 in stage 2.0 (TID 961) in 7 ms on 10.0.0.10 (executor 0) (142/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 89.0 in stage 2.0 (TID 965, 10.0.0.6, executor 1, partition 89, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 73.0 in stage 2.0 (TID 958) in 14 ms on 10.0.0.6 (executor 1) (143/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 90.0 in stage 2.0 (TID 966, 10.0.0.10, executor 0, partition 90, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 75.0 in stage 2.0 (TID 960) in 15 ms on 10.0.0.10 (executor 0) (144/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 95.0 in stage 2.0 (TID 967, 10.0.0.10, executor 0, partition 95, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 86.0 in stage 2.0 (TID 964) in 7 ms on 10.0.0.10 (executor 0) (145/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 96.0 in stage 2.0 (TID 968, 10.0.0.12, executor 2, partition 96, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 82.0 in stage 2.0 (TID 963) in 11 ms on 10.0.0.12 (executor 2) (146/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 98.0 in stage 2.0 (TID 969, 10.0.0.6, executor 1, partition 98, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 74.0 in stage 2.0 (TID 959) in 19 ms on 10.0.0.6 (executor 1) (147/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 100.0 in stage 2.0 (TID 970, 10.0.0.6, executor 1, partition 100, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 89.0 in stage 2.0 (TID 965) in 6 ms on 10.0.0.6 (executor 1) (148/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 101.0 in stage 2.0 (TID 971, 10.0.0.12, executor 2, partition 101, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 80.0 in stage 2.0 (TID 962) in 15 ms on 10.0.0.12 (executor 2) (149/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 104.0 in stage 2.0 (TID 972, 10.0.0.10, executor 0, partition 104, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 95.0 in stage 2.0 (TID 967) in 6 ms on 10.0.0.10 (executor 0) (150/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 105.0 in stage 2.0 (TID 973, 10.0.0.10, executor 0, partition 105, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 90.0 in stage 2.0 (TID 966) in 8 ms on 10.0.0.10 (executor 0) (151/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 107.0 in stage 2.0 (TID 974, 10.0.0.6, executor 1, partition 107, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 100.0 in stage 2.0 (TID 970) in 8 ms on 10.0.0.6 (executor 1) (152/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 108.0 in stage 2.0 (TID 975, 10.0.0.10, executor 0, partition 108, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 104.0 in stage 2.0 (TID 972) in 7 ms on 10.0.0.10 (executor 0) (153/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 109.0 in stage 2.0 (TID 976, 10.0.0.10, executor 0, partition 109, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 105.0 in stage 2.0 (TID 973) in 8 ms on 10.0.0.10 (executor 0) (154/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 98.0 in stage 2.0 (TID 969) in 14 ms on 10.0.0.6 (executor 1) (155/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 110.0 in stage 2.0 (TID 977, 10.0.0.6, executor 1, partition 110, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 112.0 in stage 2.0 (TID 978, 10.0.0.12, executor 2, partition 112, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 113.0 in stage 2.0 (TID 979, 10.0.0.12, executor 2, partition 113, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 96.0 in stage 2.0 (TID 968) in 18 ms on 10.0.0.12 (executor 2) (156/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 101.0 in stage 2.0 (TID 971) in 15 ms on 10.0.0.12 (executor 2) (157/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 114.0 in stage 2.0 (TID 980, 10.0.0.6, executor 1, partition 114, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 107.0 in stage 2.0 (TID 974) in 11 ms on 10.0.0.6 (executor 1) (158/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 115.0 in stage 2.0 (TID 981, 10.0.0.6, executor 1, partition 115, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 110.0 in stage 2.0 (TID 977) in 9 ms on 10.0.0.6 (executor 1) (159/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 116.0 in stage 2.0 (TID 982, 10.0.0.10, executor 0, partition 116, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 109.0 in stage 2.0 (TID 976) in 15 ms on 10.0.0.10 (executor 0) (160/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 118.0 in stage 2.0 (TID 983, 10.0.0.12, executor 2, partition 118, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 113.0 in stage 2.0 (TID 979) in 14 ms on 10.0.0.12 (executor 2) (161/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 119.0 in stage 2.0 (TID 984, 10.0.0.12, executor 2, partition 119, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 112.0 in stage 2.0 (TID 978) in 15 ms on 10.0.0.12 (executor 2) (162/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 120.0 in stage 2.0 (TID 985, 10.0.0.10, executor 0, partition 120, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 108.0 in stage 2.0 (TID 975) in 22 ms on 10.0.0.10 (executor 0) (163/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 123.0 in stage 2.0 (TID 986, 10.0.0.6, executor 1, partition 123, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 115.0 in stage 2.0 (TID 981) in 10 ms on 10.0.0.6 (executor 1) (164/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 128.0 in stage 2.0 (TID 987, 10.0.0.6, executor 1, partition 128, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 114.0 in stage 2.0 (TID 980) in 14 ms on 10.0.0.6 (executor 1) (165/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 133.0 in stage 2.0 (TID 988, 10.0.0.12, executor 2, partition 133, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 118.0 in stage 2.0 (TID 983) in 13 ms on 10.0.0.12 (executor 2) (166/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 135.0 in stage 2.0 (TID 989, 10.0.0.12, executor 2, partition 135, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 119.0 in stage 2.0 (TID 984) in 13 ms on 10.0.0.12 (executor 2) (167/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 137.0 in stage 2.0 (TID 990, 10.0.0.10, executor 0, partition 137, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 116.0 in stage 2.0 (TID 982) in 19 ms on 10.0.0.10 (executor 0) (168/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 140.0 in stage 2.0 (TID 991, 10.0.0.10, executor 0, partition 140, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 120.0 in stage 2.0 (TID 985) in 15 ms on 10.0.0.10 (executor 0) (169/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 142.0 in stage 2.0 (TID 992, 10.0.0.6, executor 1, partition 142, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 128.0 in stage 2.0 (TID 987) in 16 ms on 10.0.0.6 (executor 1) (170/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 143.0 in stage 2.0 (TID 993, 10.0.0.6, executor 1, partition 143, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 123.0 in stage 2.0 (TID 986) in 19 ms on 10.0.0.6 (executor 1) (171/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 146.0 in stage 2.0 (TID 994, 10.0.0.12, executor 2, partition 146, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 133.0 in stage 2.0 (TID 988) in 12 ms on 10.0.0.12 (executor 2) (172/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 152.0 in stage 2.0 (TID 995, 10.0.0.12, executor 2, partition 152, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 135.0 in stage 2.0 (TID 989) in 13 ms on 10.0.0.12 (executor 2) (173/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 153.0 in stage 2.0 (TID 996, 10.0.0.6, executor 1, partition 153, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 142.0 in stage 2.0 (TID 992) in 6 ms on 10.0.0.6 (executor 1) (174/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 154.0 in stage 2.0 (TID 997, 10.0.0.10, executor 0, partition 154, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 140.0 in stage 2.0 (TID 991) in 11 ms on 10.0.0.10 (executor 0) (175/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 157.0 in stage 2.0 (TID 998, 10.0.0.6, executor 1, partition 157, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 143.0 in stage 2.0 (TID 993) in 7 ms on 10.0.0.6 (executor 1) (176/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 162.0 in stage 2.0 (TID 999, 10.0.0.10, executor 0, partition 162, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 137.0 in stage 2.0 (TID 990) in 15 ms on 10.0.0.10 (executor 0) (177/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 163.0 in stage 2.0 (TID 1000, 10.0.0.12, executor 2, partition 163, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 146.0 in stage 2.0 (TID 994) in 13 ms on 10.0.0.12 (executor 2) (178/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 165.0 in stage 2.0 (TID 1001, 10.0.0.12, executor 2, partition 165, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 152.0 in stage 2.0 (TID 995) in 13 ms on 10.0.0.12 (executor 2) (179/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 167.0 in stage 2.0 (TID 1002, 10.0.0.6, executor 1, partition 167, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 153.0 in stage 2.0 (TID 996) in 15 ms on 10.0.0.6 (executor 1) (180/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 170.0 in stage 2.0 (TID 1003, 10.0.0.6, executor 1, partition 170, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 157.0 in stage 2.0 (TID 998) in 14 ms on 10.0.0.6 (executor 1) (181/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 171.0 in stage 2.0 (TID 1004, 10.0.0.10, executor 0, partition 171, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 162.0 in stage 2.0 (TID 999) in 14 ms on 10.0.0.10 (executor 0) (182/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 173.0 in stage 2.0 (TID 1005, 10.0.0.10, executor 0, partition 173, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 154.0 in stage 2.0 (TID 997) in 17 ms on 10.0.0.10 (executor 0) (183/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 179.0 in stage 2.0 (TID 1006, 10.0.0.12, executor 2, partition 179, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 165.0 in stage 2.0 (TID 1001) in 11 ms on 10.0.0.12 (executor 2) (184/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 181.0 in stage 2.0 (TID 1007, 10.0.0.6, executor 1, partition 181, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 170.0 in stage 2.0 (TID 1003) in 9 ms on 10.0.0.6 (executor 1) (185/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 182.0 in stage 2.0 (TID 1008, 10.0.0.12, executor 2, partition 182, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 163.0 in stage 2.0 (TID 1000) in 17 ms on 10.0.0.12 (executor 2) (186/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 184.0 in stage 2.0 (TID 1009, 10.0.0.10, executor 0, partition 184, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 171.0 in stage 2.0 (TID 1004) in 12 ms on 10.0.0.10 (executor 0) (187/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 187.0 in stage 2.0 (TID 1010, 10.0.0.6, executor 1, partition 187, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 181.0 in stage 2.0 (TID 1007) in 7 ms on 10.0.0.6 (executor 1) (188/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 188.0 in stage 2.0 (TID 1011, 10.0.0.6, executor 1, partition 188, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 167.0 in stage 2.0 (TID 1002) in 18 ms on 10.0.0.6 (executor 1) (189/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 189.0 in stage 2.0 (TID 1012, 10.0.0.10, executor 0, partition 189, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 173.0 in stage 2.0 (TID 1005) in 15 ms on 10.0.0.10 (executor 0) (190/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 194.0 in stage 2.0 (TID 1013, 10.0.0.12, executor 2, partition 194, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 179.0 in stage 2.0 (TID 1006) in 14 ms on 10.0.0.12 (executor 2) (191/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 196.0 in stage 2.0 (TID 1014, 10.0.0.12, executor 2, partition 196, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 182.0 in stage 2.0 (TID 1008) in 12 ms on 10.0.0.12 (executor 2) (192/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 197.0 in stage 2.0 (TID 1015, 10.0.0.10, executor 0, partition 197, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 189.0 in stage 2.0 (TID 1012) in 9 ms on 10.0.0.10 (executor 0) (193/200)
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 198.0 in stage 2.0 (TID 1016, 10.0.0.10, executor 0, partition 198, PROCESS_LOCAL, 7760 bytes)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 184.0 in stage 2.0 (TID 1009) in 13 ms on 10.0.0.10 (executor 0) (194/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 188.0 in stage 2.0 (TID 1011) in 12 ms on 10.0.0.6 (executor 1) (195/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 187.0 in stage 2.0 (TID 1010) in 13 ms on 10.0.0.6 (executor 1) (196/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 197.0 in stage 2.0 (TID 1015) in 12 ms on 10.0.0.10 (executor 0) (197/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 198.0 in stage 2.0 (TID 1016) in 12 ms on 10.0.0.10 (executor 0) (198/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 194.0 in stage 2.0 (TID 1013) in 23 ms on 10.0.0.12 (executor 2) (199/200)
+19/07/03 19:07:56 INFO TaskSetManager: Finished task 196.0 in stage 2.0 (TID 1014) in 23 ms on 10.0.0.12 (executor 2) (200/200)
+19/07/03 19:07:56 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+19/07/03 19:07:56 INFO DAGScheduler: ShuffleMapStage 2 (pivot at NativeMethodAccessorImpl.java:0) finished in 3.680 s
+19/07/03 19:07:56 INFO DAGScheduler: looking for newly runnable stages
+19/07/03 19:07:56 INFO DAGScheduler: running: Set()
+19/07/03 19:07:56 INFO DAGScheduler: waiting: Set(ResultStage 3)
+19/07/03 19:07:56 INFO DAGScheduler: failed: Set()
+19/07/03 19:07:56 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[11] at pivot at NativeMethodAccessorImpl.java:0), which has no missing parents
+19/07/03 19:07:56 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 25.0 KB, free 365.9 MB)
+19/07/03 19:07:56 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 11.4 KB, free 365.9 MB)
+19/07/03 19:07:56 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on ip-10-0-0-7.us-west-2.compute.internal:43455 (size: 11.4 KB, free: 366.2 MB)
+19/07/03 19:07:56 INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:1161
+19/07/03 19:07:56 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[11] at pivot at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+19/07/03 19:07:56 INFO TaskSchedulerImpl: Adding task set 3.0 with 1 tasks
+19/07/03 19:07:56 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 1017, 10.0.0.12, executor 2, partition 0, NODE_LOCAL, 7771 bytes)
+19/07/03 19:07:56 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.0.0.12:44279 (size: 11.4 KB, free: 366.2 MB)
+19/07/03 19:07:56 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 1 to 10.0.0.12:39106
+19/07/03 19:07:57 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 1017) in 203 ms on 10.0.0.12 (executor 2) (1/1)
+19/07/03 19:07:57 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+19/07/03 19:07:57 INFO DAGScheduler: ResultStage 3 (pivot at NativeMethodAccessorImpl.java:0) finished in 0.211 s
+19/07/03 19:07:57 INFO DAGScheduler: Job 1 finished: pivot at NativeMethodAccessorImpl.java:0, took 1337.441870 s
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 100
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 112
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 93
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 43
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 103
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 82
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 31
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 74
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 10.0.0.10:35229 in memory (size: 24.0 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 10.0.0.12:44279 in memory (size: 24.0 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 10.0.0.6:32845 in memory (size: 24.0 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_1_piece0 on ip-10-0-0-7.us-west-2.compute.internal:43455 in memory (size: 24.0 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 88
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 44
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 94
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 49
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 57
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 52
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 110
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 86
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 89
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 85
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 104
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 111
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 70
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 97
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 127
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 42
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 75
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 59
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 90
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 28
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 118
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 76
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 123
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 92
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 119
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 113
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned shuffle 0
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 71
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 114
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 78
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 48
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 58
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 98
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 60
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 84
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 91
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 72
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 69
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 81
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 61
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 73
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 99
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 79
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 126
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned shuffle 1
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 106
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 41
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 46
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 63
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 35
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 101
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 51
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 109
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 124
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 125
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 77
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 10.0.0.10:35229 in memory (size: 10.0 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 10.0.0.6:32845 in memory (size: 10.0 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 10.0.0.12:44279 in memory (size: 10.0 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_2_piece0 on ip-10-0-0-7.us-west-2.compute.internal:43455 in memory (size: 10.0 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 47
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 53
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 10.0.0.6:32845 in memory (size: 11.6 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 10.0.0.10:35229 in memory (size: 11.6 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 10.0.0.12:44279 in memory (size: 11.6 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_3_piece0 on ip-10-0-0-7.us-west-2.compute.internal:43455 in memory (size: 11.6 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 45
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 36
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 117
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_4_piece0 on ip-10-0-0-7.us-west-2.compute.internal:43455 in memory (size: 11.4 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO BlockManagerInfo: Removed broadcast_4_piece0 on 10.0.0.12:44279 in memory (size: 11.4 KB, free: 366.3 MB)
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 29
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 122
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 40
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 64
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 80
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 115
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 108
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 95
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 121
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 39
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 34
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 87
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 105
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 37
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 62
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 68
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 65
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 66
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 116
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 33
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 50
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 56
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 96
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 67
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 102
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 120
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 107
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 83
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 32
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 54
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 38
+19/07/03 19:07:57 INFO ContextCleaner: Cleaned accumulator 55
+Connected to Database 
+
+19/07/03 19:07:58 WARN Utils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+19/07/03 19:07:58 INFO FileSourceStrategy: Pruning directories with: 
+19/07/03 19:07:58 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(station_name#14)
+19/07/03 19:07:58 INFO FileSourceStrategy: Output Data Schema: struct<station_name: string, date: string, data_type: string, data: double ... 2 more fields>
+19/07/03 19:07:58 INFO FileSourceScanExec: Pushed Filters: IsNotNull(station_name)
+Traceback (most recent call last):
+  File "/usr/local/spark/spark-2.4.3-bin-hadoop2.7/python/lib/pyspark.zip/pyspark/sql/utils.py", line 63, in deco
+  File "/usr/local/spark/spark-2.4.3-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip/py4j/protocol.py", line 328, in get_return_value
+py4j.protocol.Py4JJavaError: An error occurred while calling o100.save.
+: org.apache.spark.sql.AnalysisException: path s3a://climate-data-insight-prj/daily_lower48/dailyData.csv already exists.;
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:114)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:104)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:102)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.doExecute(commands.scala:122)
+	at org.apache.spark.sql.execution.SparkPlan$$anonfun$execute$1.apply(SparkPlan.scala:131)
+	at org.apache.spark.sql.execution.SparkPlan$$anonfun$execute$1.apply(SparkPlan.scala:127)
+	at org.apache.spark.sql.execution.SparkPlan$$anonfun$executeQuery$1.apply(SparkPlan.scala:155)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.sql.execution.SparkPlan.executeQuery(SparkPlan.scala:152)
+	at org.apache.spark.sql.execution.SparkPlan.execute(SparkPlan.scala:127)
+	at org.apache.spark.sql.execution.QueryExecution.toRdd$lzycompute(QueryExecution.scala:80)
+	at org.apache.spark.sql.execution.QueryExecution.toRdd(QueryExecution.scala:80)
+	at org.apache.spark.sql.DataFrameWriter$$anonfun$runCommand$1.apply(DataFrameWriter.scala:676)
+	at org.apache.spark.sql.DataFrameWriter$$anonfun$runCommand$1.apply(DataFrameWriter.scala:676)
+	at org.apache.spark.sql.execution.SQLExecution$$anonfun$withNewExecutionId$1.apply(SQLExecution.scala:78)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:125)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:73)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:676)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:285)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:271)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/Documents/AmirInsightProject/readNoaaClimateDataToSparkToS3.py", line 89, in <module>
+    test  = readingClimateData.createDataframeOfLower48Daily()
+  File "/home/ubuntu/Documents/AmirInsightProject/readNoaaClimateDataToSparkToS3.py", line 78, in createDataframeOfLower48Daily
+    lower48dataDaily.write.save("s3a://climate-data-insight-prj/daily_lower48/dailyData.csv", format='csv')
+  File "/usr/local/spark/spark-2.4.3-bin-hadoop2.7/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 734, in save
+  File "/usr/local/spark/spark-2.4.3-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip/py4j/java_gateway.py", line 1257, in __call__
+  File "/usr/local/spark/spark-2.4.3-bin-hadoop2.7/python/lib/pyspark.zip/pyspark/sql/utils.py", line 69, in deco
+pyspark.sql.utils.AnalysisException: 'path s3a://climate-data-insight-prj/daily_lower48/dailyData.csv already exists.;'
+19/07/03 19:07:58 INFO SparkContext: Invoking stop() from shutdown hook
+19/07/03 19:07:58 INFO SparkUI: Stopped Spark web UI at http://ip-10-0-0-7.us-west-2.compute.internal:4040
+19/07/03 19:07:58 INFO StandaloneSchedulerBackend: Shutting down all executors
+19/07/03 19:07:58 INFO CoarseGrainedSchedulerBackend$DriverEndpoint: Asking each executor to shut down
+19/07/03 19:07:58 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+19/07/03 19:07:58 INFO MemoryStore: MemoryStore cleared
+19/07/03 19:07:58 INFO BlockManager: BlockManager stopped
+19/07/03 19:07:58 INFO BlockManagerMaster: BlockManagerMaster stopped
+19/07/03 19:07:58 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+19/07/03 19:07:59 INFO SparkContext: Successfully stopped SparkContext
+19/07/03 19:07:59 INFO ShutdownHookManager: Shutdown hook called
+19/07/03 19:07:59 INFO ShutdownHookManager: Deleting directory /tmp/spark-255c5d4f-9f5e-4358-b252-7c8d04210bc1
+19/07/03 19:07:59 INFO ShutdownHookManager: Deleting directory /tmp/spark-d26f5043-55ae-4a0f-9521-baf18778917c
+19/07/03 19:07:59 INFO ShutdownHookManager: Deleting directory /tmp/spark-255c5d4f-9f5e-4358-b252-7c8d04210bc1/pyspark-c35e6dc3-9783-4947-b917-638a5f9ae444
