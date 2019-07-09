@@ -29,11 +29,11 @@ class readMonthlyClimateData:
 
 
         monthlyClimateData = self.spark.read.csv("s3a://climate-data-insight-prj/daily_lower48/*.csv", header=False, schema=data_schema)
-        #monthlyClimateData.show()
-        #monthlyClimateData.printSchema()
+        monthlyClimateData.show()
+        monthlyClimateData.printSchema()
         return monthlyClimateData
 
-
+"""
     def checkIfTableExist(self, tableName):
         newConection = dataBaseConnect().connectToDataBase()
         cursor = newConection.cursor()
@@ -46,26 +46,15 @@ class readMonthlyClimateData:
 
     def createDataframeOfLower48Montly(self):
         psqlConnect = dataBaseLogin()
-        tableName = "lower48_montly"
+        tableName = "lower48_data_elv"
         self.checkIfTableExist(tableName)
         lower48dataDaily = self.getClimateMontlyFromS3()
-        lower48datamontly = lower48dataDaily.groupBy("id" ,"year", "month", "elevation").agg({"TMAX":"avg", "TMIN":"avg", "PRCP":"sum"})
-        lower48dataDaily = lower48dataDaily.withColumnRenamed(""avg(TMIN)"","TMIN")
+        lower48datamontly = lower48dataDaily.groupBy("id" ,"year", "month").agg({"TMAX":"avg", "TMIN":"avg", "PRCP":"sum"})
+        lower48dataDaily = lower48dataDaily.withColumnRenamed("avg(TMIN)","TMIN")
         lower48dataDaily = lower48dataDaily.withColumnRenamed("sum(PRCP)","PRCP")
         lower48dataDaily.write.save("s3a://climate-data-insight-prj/monthly_lower48/monthly-1919-2019.csv", format='csv')
         lower48datamontly.write.format("jdbc").option("url",psqlConnect.url ).option("dbtable", tableName)\
-                   .option("user", psqlConnect.user).option("password", psqlConnect.password).save()
-
-
-        #lower48datamontly = lower48datamontly.selectExpr("id as id", "year as year", "month as month", "avg(TMAX) as TMAX", "avg(TMIN) as TMIN", "sum(PRCP) as PRCP")
-        #lower48dataDaily.withColumnRenamed("avg(TMAX)","TMAX")
-        #lower48dataDaily = lower48dataDaily.withColumnRenamed("avg(TMIN)","TMIN")
-        #lower48dataDaily = lower48dataDaily.withColumnRenamed("sum(PRCP)","PRCP")
-        lower48datamontly.show()
-        lower48datamontly.printSchema()
-
-        #lower48dataDaily.show()
-
+           
 
 
 if __name__ == '__main__':

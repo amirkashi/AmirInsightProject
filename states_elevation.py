@@ -31,6 +31,8 @@ class createStatesElevationTable:
         connectAWS = AwsLogins()
         bucket = connectAWS.s3Bucket
         fileName = "states_elevation_csv/lower48elevation.csv"
+        #fileName = "states_elevation_csv/test.csv"
+
         lines = client.get_object(Bucket=bucket, Key=fileName)['Body'].read().decode('utf-8').split()
         for row in lines:
            row = row.split(',')
