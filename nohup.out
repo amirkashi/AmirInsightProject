@@ -15151,3 +15151,919 @@ pyspark.sql.utils.AnalysisException: 'path s3a://climate-data-insight-prj/daily_
 19/07/03 19:07:59 INFO ShutdownHookManager: Deleting directory /tmp/spark-255c5d4f-9f5e-4358-b252-7c8d04210bc1
 19/07/03 19:07:59 INFO ShutdownHookManager: Deleting directory /tmp/spark-d26f5043-55ae-4a0f-9521-baf18778917c
 19/07/03 19:07:59 INFO ShutdownHookManager: Deleting directory /tmp/spark-255c5d4f-9f5e-4358-b252-7c8d04210bc1/pyspark-c35e6dc3-9783-4947-b917-638a5f9ae444
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 335-436-996
+ * Serving Flask app "webUi" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 583-788-494
+/home/ubuntu/.local/lib/python3.6/site-packages/dash/resources.py:44: UserWarning:
+
+A local version of https://codepen.io/amyoshino/pen/jzXypZ.css is not available
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+  File "/home/ubuntu/Documents/AmirInsightProject/webUi.py", line 120
+    y2 = values
+     ^
+SyntaxError: invalid syntax
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 740-633-714
+ * Serving Flask app "webUi" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 172-359-535
+/home/ubuntu/.local/lib/python3.6/site-packages/dash/resources.py:44: UserWarning:
+
+A local version of https://codepen.io/amyoshino/pen/jzXypZ.css is not available
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 268-487-237
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 641-722-917
+ * Serving Flask app "webUi" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 843-122-005
+/home/ubuntu/.local/lib/python3.6/site-packages/dash/resources.py:44: UserWarning:
+
+A local version of https://codepen.io/amyoshino/pen/jzXypZ.css is not available
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 684-505-695
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 387-687-642
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 212-019-451
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 534-420-112
+/home/ubuntu/.local/lib/python3.6/site-packages/dash/resources.py:44: UserWarning:
+
+A local version of https://codepen.io/amyoshino/pen/jzXypZ.css is not available
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 346-577-669
+/home/ubuntu/.local/lib/python3.6/site-packages/dash/resources.py:44: UserWarning:
+
+A local version of https://codepen.io/amyoshino/pen/jzXypZ.css is not available
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 379-574-611
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 417-744-573
+ * Serving Flask app "webUi" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 871-038-852
+/home/ubuntu/.local/lib/python3.6/site-packages/dash/resources.py:44: UserWarning:
+
+A local version of https://codepen.io/amyoshino/pen/jzXypZ.css is not available
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Connected to Database 
+
+Running on http://0.0.0.0:5656/
+Debugger PIN: 906-507-716
