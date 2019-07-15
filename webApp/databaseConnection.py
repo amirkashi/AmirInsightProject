@@ -4,6 +4,10 @@ from constantValues.loginInfo import dataBaseLogin
 
 class dataBaseConnect:
     def connectToDataBase(self):
+        """
+        This function provides connection to database
+        and will be used by several classes
+        """
         connection = None
         try:
             loginInfo = dataBaseLogin()

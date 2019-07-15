@@ -8,9 +8,14 @@ from databaseConnection import dataBaseConnect
 import psycopg2 as ps2
 from pandas import DataFrame
 
+"""
+This code is responsible to query data base 
+and then present result of project as bar chart 
+"""
+
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-app.css.append_css({'external_url': 'https://codepen.io/amyoshino/pen/jzXypZ.css'})  # noqa: E501
+app.css.append_css({'external_url': 'https://codepen.io/amyoshino/pen/jzXypZ.css'})
 server = app.server
 
 colors = {

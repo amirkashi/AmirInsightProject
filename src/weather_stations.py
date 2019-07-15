@@ -1,3 +1,9 @@
+"""
+This code reads csv fine of climate stations form S3 
+and then create a tabe for them which provide stations information 
+like elevation which was used for interpolation 
+"""
+
 from constantValues.loginInfo import AwsLogins
 from databaseConnection import dataBaseConnect
 import boto3
@@ -5,8 +11,10 @@ import boto3
 
 class createStationTable:
 
-
     def createStationsTable(self):
+        """
+        This function create a table for climate stations 
+        """
         newConection = dataBaseConnect().connectToDataBase()
         cursor = newConection.cursor()
         stationTable = '''
@@ -29,6 +37,10 @@ class createStationTable:
 
 
     def addDataToTable(self):
+        """
+        This function get station information from s3 as a text file 
+        and then create a table for station in lower 48 states of the US
+        """
         newConection = dataBaseConnect().connectToDataBase()
         cursor = newConection.cursor()
         client = boto3.client('s3')

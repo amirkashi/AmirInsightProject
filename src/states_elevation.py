@@ -1,3 +1,8 @@
+"""
+This code is responsible to read csv file of elevations for each 
+states, create a table for it, and then insert elevation data in it. 
+"""
+
 from constantValues.loginInfo import AwsLogins
 from databaseConnection import dataBaseConnect
 import boto3
@@ -5,8 +10,10 @@ import csv
 
 class createStatesElevationTable:
 
-
     def createTable(self):
+        """
+        This function creates a table for elevation of each states
+        """
         newConection = dataBaseConnect().connectToDataBase()
         cursor = newConection.cursor()
         stationTable = '''
@@ -25,14 +32,16 @@ class createStatesElevationTable:
 
 
     def addDataToTable(self):
+        """
+        This function read csv file of elevation and then insert its 
+        data to table in database
+        """
         newConection = dataBaseConnect().connectToDataBase()
         cursor = newConection.cursor()
         client = boto3.client('s3')
         connectAWS = AwsLogins()
         bucket = connectAWS.s3Bucket
         fileName = "states_elevation_csv/lower48elevation.csv"
-        #fileName = "states_elevation_csv/test.csv"
-
         lines = client.get_object(Bucket=bucket, Key=fileName)['Body'].read().decode('utf-8').split()
         for row in lines:
            row = row.split(',')

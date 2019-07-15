@@ -8,6 +8,10 @@ import pandas as pd
 
 class calculateRegression:
     def getAnnualData(self, climateItem, startYear, endYear):
+        """
+        This function run a query that get monthly data from database 
+        and then create a table with 20 year interval
+        """
         query = """
                 SELECT * FROM  (SELECT id, elevation  ,AVG({}) AS item 
                     FROM lower48_data_elv 
@@ -17,14 +21,20 @@ class calculateRegression:
                 """.format(climateItem, startYear, endYear)
         return self.makeDataframeFromQuery(query)
 
-
     def makeDataframeFromQuery(self, query):
+        """
+        This function convert database query to pandas data frame 
+        """
         newConection = dataBaseConnect().connectToDataBase()
         dataframe = pd.read_sql(query, newConection)
         newConection.close()
         return dataframe
 
     def updateDataBaseAnnually(self, tableName, columnName, slope, intercept):
+        """
+        This function get rgression input and then update table of 
+        the given climate data 
+        """
         newConection = dataBaseConnect().connectToDataBase()
         cursor = newConection.cursor()
         query = "update " + tableName + " " + \
@@ -36,6 +46,11 @@ class calculateRegression:
 
 
     def calculateAnnulCoefficients(self,tableName, climateItem):
+        """
+        This function clculate regrssion coeficient and then calls other 
+        functions of this class to update table of given climate item 
+        in a given interval 
+        """
         startYears = [1919, 1939, 1959, 1979, 1999]
         endYears = [1938, 1958, 1978, 1998, 2018]
         for i in range(len(startYears)):
