@@ -1,26 +1,17 @@
-# Insight Data Engineering Project #
-In this project I want to use global historical, current, and predicted weather data in to create a pipeline to determine regions that can have a potential flooding, wildfire, or a large snow.
+# Climate Watch #
+## Introduction ##
+Climate change is one of the main issues that human is facing. We need to crate an infrastructre in order to find effect of climate change on our planet. In this project, I created a pipeline that ingest daily claimate data from 1919 to 2018 and one kilometer elevation of the USA. Then it joins these two dataset to find how was effect of climate change in past one hundred years.  
+
 ## Data ##
 [NOAA Global Historical Climatology Network Daily (GHCN-D)](https://registry.opendata.aws/noaa-ghcn/)  
-[Atmospheric Models from Météo-France](https://registry.opendata.aws/meteo-france-models/)
-## Challenge:
-The NOAA historical data are in text format. They update every day and represent data of a point, eg station. This data will be used to find average past 30 or 50 climate data.
-
-The atmospheric data are in GRIB2 format. They update every 6 hours and predicts 114 hours from now. These data will be compared to average data in order to determine hazardous weather conditions.
-
-## Engineering Challenges:
-Make a scalable system that helps user can query historical data with station name, region, country, or distance from a given point.
-Stream atmospheric and historical data as soon as update are available.
-Process and present as soon as new data published into S3.
+[NOAA Global Elevation](https://registry.opendata.aws/meteo-france-models/)
+[States Boundaries](https://datagateway.nrcs.usda.gov/)
 
 ## Technology stack:
-* S3
-* AWS
-* Spark
-* Kafka
-* Airflow
-* PosgreSQL or PostGIS
-* Java
-* Spring
-* Hibernate
-* MapBox
+![](img/Tech_Stack.PNG)
+
+
+[Slides](https://docs.google.com/presentation/d/1xakyw9JLUEgzHmZrjx9Aa-5eRgF4aWT2sDnC7AMejhw/edit?usp=sharing)
+[Demo](https://www.youtube.com/watch?v=yTW_2DzChlM&feature=youtu.be)
+[Link](http://data-engineering-project.xyz)
+
